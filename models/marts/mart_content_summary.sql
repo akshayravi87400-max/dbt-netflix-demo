@@ -1,3 +1,5 @@
+{{ config(materialized='table') }} 
+
 select 
     type, 
     count(*) as total_titles, 
